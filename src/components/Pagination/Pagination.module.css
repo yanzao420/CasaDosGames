@@ -1,0 +1,33 @@
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.button {
+  background-color: #202024;
+  color: #e1e1e6;
+  border: 1px solid #323238;
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.button:not(:disabled):hover {
+  border-color: #00b37e;
+}
+
+.status {
+  margin: 0;
+  color: #a8a8b3;
+  font-size: 0.95rem;
+}
